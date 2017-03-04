@@ -427,8 +427,11 @@ html, body { overflow-x: hidden; }   /*removed white space on mobile!*/
                         <p class="text-muted">Web Design</p>
 
                         <center>
-                        <a href="https://marisade.github.io/Documentation/" target="_blank"><i class="fa fa-file fa-2x" 
-                          style = "display: inline-block;"></i></a>
+                          <a href="https://marisade.github.io/Documentation/" target="_blank"><i class="fa fa-file fa-2x" 
+                          style = "display: inline-block; margin-right: 0.5em;"></i></a>
+                          <a href="https://marisade.github.io/AmandaSite/" target="_blank"><i class="fa fa-globe fa-2x" style = "display: inline-block;"></i></a>
+
+
                         </center>
 
 
@@ -488,6 +491,23 @@ html, body { overflow-x: hidden; }   /*removed white space on mobile!*/
                         <p class="text-muted">C Program</p>
                          <center>
                         <a href="https://github.com/MarisaDe/CSE320/tree/master/hw5" target="_blank"><i class="fa fa-github fa-2x" 
+                          style = "display: inline-block;"></i></a>
+                        </center>
+                            
+                    </div>
+                </div>
+
+                 <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover grow">
+                        <img src="img/projects/k.png" class="img-responsive" alt="Lord of the Threads" style = "height: 200px; width: 400px">
+                        </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 style = "margin-top:5%">K-Level Crossing Minimization</h4>
+                        <p class="text-muted">Python Program</p>
+                         <center>
+                        <a href="https://github.com/MarisaDe/k-level-Crossing-Minimization" target="_blank"><i class="fa fa-github fa-2x" 
                           style = "display: inline-block;"></i></a>
                         </center>
                             
@@ -586,13 +606,14 @@ html, body { overflow-x: hidden; }   /*removed white space on mobile!*/
                                 <p>
                                 A website for a client's art portfolio. I used Bootstrap to make sure it was mobile friendly. I also designed the logo using GIMP. The logo in addition to the about picture uses webkit animations to add something a little more artsy.
                                 I used Salvatorre to make it have a blog-esque look and LightBox to display a slideshow for the images.<br>
-                                Check out the link to the documentation below!
+                                Check out the link on the left for the documentation and the link on the right for the final project!
 
-                                <ul class="list-inline social-buttons">
-                                    <li><a href="https://marisade.github.io/Documentation/" target="_blank"><i class="fa fa-file"></i></a> </li>
-                                </ul>
-                                </p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                 <ul class="list-inline social-buttons">
+                                    <li><a href="https://marisade.github.io/Documentation/"><i class="fa fa-file"></i></a>
+                                    </li>
+                                    <li><a href="https://marisade.githun.io/AmandaSite" target="_blank"><i class="fa fa-globe"></i></a>
+                                    </li>
+                                  </ul>
                             </div>
                         </div>
                     </div>
@@ -652,7 +673,7 @@ html, body { overflow-x: hidden; }   /*removed white space on mobile!*/
                                 <!-- Project Details Go Here -->
                                 <h2>Running Wild</h2>
                                 <p class="item-intro text-muted">January 2014</p>
-                                <img class="img-responsive img-centered" src="img/projects/rw.png" alt="">
+                                <img class="img-responsive img-centered" src="img/projects/rw.png" alt="running-wild">
                                 <p>
                                 A game created during Global Game Jam in 48 hours. Collaborated with 3 other people to make a game in GameMaker. I was in charge of the object and scenery design.
                                   <ul class="list-inline social-buttons">
@@ -688,7 +709,7 @@ html, body { overflow-x: hidden; }   /*removed white space on mobile!*/
                                 <!-- Project Details Go Here -->
                                 <h2>Lord of the Threads</h2>
                                 <p class="item-intro text-muted">November 2016</p>
-                                <img class="img-responsive img-centered" src="img/projects/mr.png" alt="">
+                                <img class="img-responsive img-centered" src="img/projects/mr.png" alt="lord-of-the-threads">
                                 <p>
                                 • Created a multithreaded C program that allows the user to perform two functions on a directory/file <br>
                                 • The analyze function finds the longest line length, line number, and number of bytes. <br>
@@ -725,11 +746,17 @@ html, body { overflow-x: hidden; }   /*removed white space on mobile!*/
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>K-Level Crossing Minimization</h2>
+                                <p class="item-intro text-muted">February 2017</p>
+                                <img class="img-responsive img-centered" src="img/projects/k.png" alt="k-level-Crossing-Minimization">
+                                <p>
+                                • Created a program in Python that reads in a file and parses through information such as nodes, edges, and layers to determine which stucture would produce the least amount of edge crossings.<br>
+                                • Used itertools for permutations<br>
+                                • Created a Layers class to keep track of each layer and their respective nodes and edges.<br>
+                                • Used matrices and compared the "coordinates" to determine if there was a crossing between 2 edges.<br>
+                                • Created for class CSE 307<br>
+
+                                </p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
